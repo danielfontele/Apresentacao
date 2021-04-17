@@ -253,49 +253,19 @@ footer .detail {
     font-weight: bold;
 }
 
-/* Responsivo celulares - media query */
-@media(max-width: 450px) {
-
-    /* geral */
-    p, input, textarea, #navbar-list li a {
-        font-size: 1.2rem; /* Root EleMent*/
+/* Responsividade 800px */
+@media(max-width: 800px) {
+    
+    /* Jobs */
+    .job-box {
+        height: 25vh;
     }
+    
+}
 
-    /* navbar */
-    #navbar h2 {
-        display: none;
-    }
-
-    #navbar img {
-        top: 9px;
-    }
-
-    #navbar ul {
-        margin-top: 1.1rem;
-    }
-
-    /* banner */
-
-    #main-banner {
-        height: 40vh;
-        padding-top: 5vh;
-        padding-bottom: 10vh;
-    }
-
-    #banner-info {
-        width: 60%;
-    }
-
-    /* about */
-
-    #about-section {
-        padding: 2rem;
-        height: auto;
-        padding-bottom: 50px
-    }
-
-    /* skills */
-
+/* Responsividade 650px */
+@media(max-width: 650px) {
+    
     #skills-section {
         margin-top: -35px;
         width: 90%;
@@ -319,9 +289,18 @@ footer .detail {
         border-left: none;
         border-right: none;
     }
+    
+}
+
+/* Responsividade 538px */
+@media(max-width: 538px) {
+    
+    /* navbar */
+    #navbar h2 {
+        display: none;
+    }
 
     /* jobs */
-
     .jobs-section h2, #jobs-section p {
         width: 85%;
         margin-left: auto;
@@ -337,9 +316,49 @@ footer .detail {
         margin-bottom: 2rem;
         flex: 1 1 300px;
     }
+    
+}
+
+/* Responsividade 450px */
+@media(max-width: 450px) {
+
+    /* geral */
+    p, input, textarea, #navbar-list li a {
+        font-size: 1.2rem; /* Root EleMent*/
+    }
+
+    /* navbar */
+    #navbar img {
+        top: 9px;
+    }
+
+    #navbar ul {
+        margin-top: 1.1rem;
+    }
+
+    /* banner */
+    #main-banner {
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    
+    #banner-info img {
+        height: 40px;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    /* about */
+    #about-section {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px
+    }
 
     /* footer */
-
     footer {
         padding: 50px 15px;
     }
@@ -350,6 +369,64 @@ footer .detail {
 
     .detail {
         margin-top: 10px;
+        margin-bottom: 10px;
         display: block;
     }
 }
+
+
+/* Responsividade 340px */
+@media(max-width: 340px) {
+    a {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Responsividade 322px */
+@media(max-width: 322px) {
+
+    /* Navbar */
+    #navbar img {
+       display: none;
+    }
+    #navbar ul {
+       display: flex;
+    }
+
+   /* Banner */
+    #banner-info p {
+       padding: 5px;
+       width: auto;
+    }
+
+}
+
+/* Responsividade 305px */
+@media(max-width: 305px) {
+
+    /* Jobs */
+    .job-box {
+        flex: 1 1 200px;
+    }
+}
+
+/* Responsividade 234px */
+@media(max-width: 234px) {
+
+   /* Banner */
+    #banner-info p {
+       display: none;
+    }
+
+}
+
+
